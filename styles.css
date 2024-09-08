@@ -1,0 +1,23 @@
+/* Remove gradient overlays */
+.ytp-gradient-top,
+.ytp-gradient-bottom {
+  display: none !important;
+}
+
+/* Enhance visibility of controls */
+.ytp-chrome-top .ytp-title,
+.ytp-chrome-bottom .ytp-chrome-controls button,
+.ytp-chrome-bottom .ytp-progress-bar-container {
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+/* Improve visibility of icons */
+.ytp-chrome-top button svg,
+.ytp-chrome-bottom button svg {
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.8));
+}
+
+/* Ensure time and duration are visible */
+.ytp-time-display {
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.8);
+}

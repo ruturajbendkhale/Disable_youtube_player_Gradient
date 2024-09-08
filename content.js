@@ -6,12 +6,17 @@ function applyStyles() {
       .ytp-gradient-bottom {
         display: none !important;
       }
-      .ytp-chrome-top,
-      .ytp-chrome-bottom {
-        background-color: rgba(0, 0, 0, 0.5);
+      .ytp-chrome-top .ytp-title,
+      .ytp-chrome-bottom .ytp-chrome-controls button,
+      .ytp-chrome-bottom .ytp-progress-bar-container {
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.8);
       }
-      .ytp-chrome-top .ytp-title {
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+      .ytp-chrome-top button svg,
+      .ytp-chrome-bottom button svg {
+        filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.8));
+      }
+      .ytp-time-display {
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.8);
       }
     `;
     document.head.appendChild(style);
