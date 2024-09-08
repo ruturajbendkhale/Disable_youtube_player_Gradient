@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Gradient Remover",
+    "version": "1.0",
+    "description": "Removes the white gradient overlay on YouTube videos.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "icons": {
+      "128": "icon128.png"
+    }
+  }
