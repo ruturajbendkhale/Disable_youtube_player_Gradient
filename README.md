@@ -2,7 +2,7 @@
 
 🔒 No Permission Required | 🚫 No User Data collected | 💻 Local execution
 
-https://github.com/ruturajbendkhale/Disable_youtube_player_Gradient/blob/main/results/Screenshot%202024-09-08%20041821.png
+![Before](https://github.com/ruturajbendkhale/Disable_youtube_player_Gradient/blob/main/results/Screenshot%202024-09-08%20041821.png)
 https://github.com/ruturajbendkhale/Disable_youtube_player_Gradient/blob/main/results/Screenshot%202024-09-08%20042035.png
 Description:
 Elevate your YouTube viewing experience with the YouTube Gradient Remover extension. This lightweight yet powerful tool removes the distracting white gradient overlays that appear at the top and bottom of YouTube videos, providing a cleaner, more immersive viewing experience.
